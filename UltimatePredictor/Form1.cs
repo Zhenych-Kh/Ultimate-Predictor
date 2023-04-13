@@ -13,6 +13,7 @@ namespace UltimatePredictor
         private readonly string PREDICTION_CONFIG_PASS = $"{Environment.CurrentDirectory}\\PredictionsConfig.json";
         private string[] _predictions;
         private Random _random = new Random();
+
         public Form1()
         {
             InitializeComponent();
